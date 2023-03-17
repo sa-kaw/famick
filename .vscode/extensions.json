@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "vscjava.vscode-java-pack",
+    "editorconfig.editorconfig",
+    "vscjava.vscode-gradle",
+    "vmware.vscode-boot-dev-pack",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
