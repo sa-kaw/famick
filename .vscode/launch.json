@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-FamickApplication<famick>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "mix.famick.FamickApplication",
+      "projectName": "famick",
+      "args": "--spring.profiles.active=${input:profile}",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "profile",
+      "description": "使用するプロファイルを選択してください。",
+      "type": "pickString",
+      "options": [
+        { "value": "develop,local" },
+        { "value": "develop" },
+        { "label": "プロファイルなし", "value": "" }
+      ],
+      "default": "develop,local"
+    }
+  ]
+}
