@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FamickApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FamickApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(FamickApplication.class, args);
+  }
 
 }
